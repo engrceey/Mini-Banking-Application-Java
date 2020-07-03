@@ -79,5 +79,16 @@ public class BankingApplication{
   System.out.println();
   break;
 
+  case "C":
+  System.out.println("-------------------------------------");
+  System.out.print("Enter amount to withdraw: ");
+  int amount2 = scanner.nextInt();
+  witdraw(amount2);
+  System.out.println();
+  System.out.println("-------------------------------------");
+  System.out.println(amount2 +" has been Debited from your account");
+  System.out.println("-------------------------------------");
+break;
+
 }
 
