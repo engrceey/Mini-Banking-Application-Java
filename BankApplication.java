@@ -54,5 +54,17 @@ public class BankingApplication{
 
   do{
 
+    switch(option.toUpperCase()){
+
+  case "A":
+  System.out.println("-------------------------------------");
+  if(balance < 0){
+    System.out.println(customerName+", You Owe "+Math.abs(balance));
+    }else{
+    System.out.println("Your Balance: "+balance);
+  }  
+  System.out.println("-------------------------------------");
+  System.out.println();
+  break;
 
 }
