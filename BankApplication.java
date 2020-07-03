@@ -100,5 +100,11 @@ public class BankingApplication{
     System.out.println("-------------------------------------");
     System.out.println();
     break;
+
+default:
+System.out.println("Invalid Option!!, please enter correct option");
+break;
+
+}
 }
 
