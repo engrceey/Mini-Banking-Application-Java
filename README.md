@@ -1,13 +1,13 @@
-# A Mini Java Banking Application(CLI)
+## A Mini Java Banking Application(CLI)
 
-## Features:
-. Check account balance
-. Deposit funds
-. Withdraw funds
-. Check last transaction
-. User interactive
+### Features:
+- Check account balance
+- Deposit funds
+- Withdraw funds
+- Check last transaction
+- User interactive
 
 
 
-### #Just.JavaIt
+#### #Just.Java.It
 
