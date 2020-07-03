@@ -104,7 +104,13 @@ public class BankingApplication{
 default:
 System.out.println("Invalid Option!!, please enter correct option");
 break;
-
 }
+
+System.out.println("=====================================");
+  System.out.println("PERFORM ANOTHER TRANSACTION ? or E to Exit\nA: Know your Account balance\nB: Deposit funds\nC: Withdraw funds\nD: See last Transaction\nE: Exit");
+  System.out.print("What will you like to do?: ");
+  option = scanner.next();
+  
+}while(!option.toUpperCase().equals("E"));
 }
 
