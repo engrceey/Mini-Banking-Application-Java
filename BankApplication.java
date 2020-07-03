@@ -67,4 +67,17 @@ public class BankingApplication{
   System.out.println();
   break;
 
+  case "B":
+  System.out.println("-------------------------------------");
+  System.out.print("Enter amount to deposit: ");
+  int amount = scanner.nextInt();
+  deposit(amount);
+  System.out.println();
+  System.out.println("-------------------------------------");
+  System.out.println(amount +" Deposited Successfully");
+  System.out.println("-------------------------------------");
+  System.out.println();
+  break;
+
 }
+
