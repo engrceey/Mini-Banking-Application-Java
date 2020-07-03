@@ -36,3 +36,18 @@ public class BankingApplication{
         System.out.println("No Transaction yet");
       }
     }
+
+    void bankMenu(){
+  
+  System.out.println(customerName + ", welcome to Zurum Bank International");
+  System.out.println("Account Number: "+customerId);
+  System.out.println();
+
+  System.out.println("=====================================");
+  System.out.println("SELECT AN OPTION BELOW\nA: Know your Account balance\nB: Deposit funds\nC: Withdraw funds\nD: See last Transaction");
+  System.out.println();
+  System.out.print("What will you like to do?: ");
+  
+  Scanner scanner =new Scanner(System.in);
+  String option;
+  option = scanner.next();
