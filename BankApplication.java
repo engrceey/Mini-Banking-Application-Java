@@ -88,7 +88,17 @@ public class BankingApplication{
   System.out.println("-------------------------------------");
   System.out.println(amount2 +" has been Debited from your account");
   System.out.println("-------------------------------------");
-break;
+  break;
 
+    case "D":
+    System.out.println("-------------------------------------");
+    if(previousTransaction < 0){
+    System.out.println(customerName+", You Withdraw "+Math.abs(previousTransaction));
+    }else{
+    System.out.println(customerName+", You Deposited "+previousTransaction);
+    } 
+    System.out.println("-------------------------------------");
+    System.out.println();
+    break;
 }
 
