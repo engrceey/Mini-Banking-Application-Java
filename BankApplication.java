@@ -112,5 +112,11 @@ System.out.println("=====================================");
   option = scanner.next();
   
 }while(!option.toUpperCase().equals("E"));
+
+System.out.println();
+System.out.println("==========================================================");
+System.out.println("Goodbye!, Thank you for Banking with us...");
+System.out.println("==========================================================");
+}
 }
 
