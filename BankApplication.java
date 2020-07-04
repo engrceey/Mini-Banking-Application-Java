@@ -27,16 +27,6 @@ public class BankingApplication{
         }
       }
 
-    void getLastTransaction(){
-      if(previousTransaction > 0){
-        System.out.println("You Deposited: "+previousTransaction);
-      }else if(previousTransaction < 0){
-        System.out.println("You withdrew: "+ Math.abs(previousTransaction));
-      }else{
-        System.out.println("No Transaction yet");
-      }
-    }
-
     void bankMenu(){
   
   System.out.println(customerName + ", welcome to Zurum Bank International");
